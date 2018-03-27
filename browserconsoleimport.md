@@ -10,8 +10,18 @@ jQuery.noConflict();
 
 ### underscore
 ```
-var jq = document.createElement('script');
-jq.src = "http://underscorejs.org/underscore.js";
-document.getElementsByTagName('head')[0].appendChild(jq);
+var ud = document.createElement('script');
+ud.src = "http://underscorejs.org/underscore.js";
+document.getElementsByTagName('head')[0].appendChild(ud);
 
 ```
+
+
+### moment
+```
+var moment = document.createElement('script');
+moment.src = "https://momentjs.com/downloads/moment.js";
+document.getElementsByTagName('head')[0].appendChild(moment);
+
+```
+
