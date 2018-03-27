@@ -25,6 +25,26 @@ methods: {
 							}
 						})
 					},
+					
+					update() {
+
+						axios.post('/updateonesymptom', {
+							 'id': <%= sympid %>,
+							 'sympname':this.sympname,
+							 'sympcontent':this.sympdesc,
+							 'summary':this.summary	
+						})
+							.then(function (response) {
+								data=response.body;
+								console.log(data);
+								msgFrame.seen=true;
+								window.top.close();
+								//window.location.href="/";
+								
+							})
+							.catch(function (error) {
+								console.log(error);
+							})
           ```
        
 ### attribute bind
