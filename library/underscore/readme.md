@@ -1,4 +1,133 @@
 
+Collections
+- each
+- map
+- reduce
+- reduceRight
+- find
+- filter
+- where
+- findWhere
+- reject
+- every
+- some
+- contains
+- invoke
+- pluck
+- max
+- min
+- sortBy
+- groupBy
+- indexBy
+- countBy
+- shuffle
+- sample
+- toArray
+- size
+- partition
+Arrays
+- first
+- initial
+- last
+- rest
+- compact
+- flatten
+- without
+- union
+- intersection
+- difference
+- uniq
+- zip
+- unzip
+- object
+- chunk
+- indexOf
+- lastIndexOf
+- sortedIndex
+- findIndex
+- findLastIndex
+- range
+Functions
+- bind
+- bindAll
+- partial
+- memoize
+- delay
+- defer
+- throttle
+- debounce
+- once
+- after
+- before
+- wrap
+- negate
+- compose
+- restArguments
+Objects
+- keys
+- allKeys
+- values
+- mapObject
+- pairs
+- invert
+- create
+- functions
+- findKey
+- extend
+- extendOwn
+- pick
+- omit
+- defaults
+- clone
+- tap
+- has
+- property
+- propertyOf
+- matcher
+- isEqual
+- isMatch
+- isEmpty
+- isElement
+- isArray
+- isObject
+- isArguments
+- isFunction
+- isString
+- isNumber
+- isFinite
+- isBoolean
+- isDate
+- isRegExp
+- isError
+- isSymbol
+- isMap
+- isWeakMap
+- isSet
+- isWeakSet
+- isNaN
+- isNull
+- isUndefined
+Utility
+- noConflict
+- identity
+- constant
+- noop
+- times
+- random
+- mixin
+- iteratee
+- uniqueId
+- escape
+- unescape
+- result
+- now
+- template
+OOP Style
+Chaining
+- chain
+- value
+
+
 ```
 // The cornerstone, an `each` implementation, aka `forEach`.
   // Handles raw objects in addition to array-likes. Treats all
