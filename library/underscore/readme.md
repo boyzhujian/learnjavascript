@@ -1,5 +1,5 @@
 
-
+```
 // The cornerstone, an `each` implementation, aka `forEach`.
   // Handles raw objects in addition to array-likes. Treats all
   // sparse array-likes as if they were dense.
@@ -13,4 +13,6 @@
   // 即 iteratee 中出现的（如果有）所有 this 都指向 context
   // notice: 不要传入一个带有 key 类型为 number 的对象！
   // notice: _.each 方法不能用 return 跳出循环（同样，Array.prototype.forEach 也不行）
-  _.each = _.forEach = function(obj, iteratee, context) {
+  _.each = _.forEach = function(obj, iteratee, context) {...}
+  
+  ```
